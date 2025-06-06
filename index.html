@@ -7,14 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./src/css/reset.css">
+<link rel="stylesheet" href="./src/css/estilos.css">
 </head>
 <body>
     <header class="cabecalho">
         <img src="./src/imagens/logo.png" alt="Logo MagickIa">
     </header>
     <main class="container">
-      <h1 class="Produtos">Produtos</h1>
-      <div class="Filtros">
+      <h1 class="produtos">Produtos</h1>
+      <div class="filtros">
         <div class="categorias-cartas">
             <label for="categoria">Categoria</label>
             <select id="categoria" class="categoria">
@@ -28,7 +30,7 @@
           <label for="preco">Preço máximo(R$)</label>
           <input type="text" id="preço" class="preco" placeholder="Ex: 100">
         </div>
-        <button class="btn -filtrar">Aplicar filtros</button>
+        <button class="btn-filtrar">Aplicar filtros</button>
       </div>
             <ul class="cartas">
                 <li class="carta" data-categoria="Épica" data-preco="3000">
@@ -37,7 +39,7 @@
                         <h2 class="nome-personagem">Arkanon</h2>
                         <span class="categoria">Categoria: Épica</span>
                         <span class="preco">R$ 3000,00</span>
-                        <button class="btn-comprar">Comprar</button>
+                        <a href="http://wa.me/5517981912971?text=Olá, quero comprar a carta Arkanon!" class="btn-comprar" target="_blank">Comprar</a>
                     </div>
                 </li>
                 <li class="carta" data-categoria="Épica" data-preco="4000">
@@ -46,7 +48,7 @@
                         <h2 class="nome-personagem">Lymara</h2>
                         <span class="categoria">Categoria: Épica</span>
                         <span class="preco">R$ 4000,00</span>
-                        <button class="btn-comprar">Comprar</button>
+                        <a href="http://wa.me/5517981912971?text=Olá, quero comprar a carta Lymara!" class="btn-comprar" target="_blank">Comprar</a>
                     </div>
                 </li>
                 <li class="carta" data-categoria="Comum" data-preco="800">
@@ -55,7 +57,7 @@
                         <h2 class="nome-personagem">Kaelthar</h2>
                         <span class="categoria">Categoria: Comum</span>
                         <span class="preco">R$ 800,00</span>
-                        <button class="btn-comprar">Comprar</button>
+                         <a href="http://wa.me/5517981912971?text=Olá, quero comprar a carta Kaelthar!" class="btn-comprar" target="_blank">Comprar</a>
                     </div>
                 </li>
                 <li class="carta" data-categoria="Rara" data-preco="1500">
@@ -64,7 +66,7 @@
                         <h2 class="nome-personagem">Maldrik</h2>
                         <span class="categoria">Categoria: Rara</span>
                         <span class="preco">R$ 1500,00</span>
-                        <button class="btn-comprar">Comprar</button>
+                         <a href="http://wa.me/5517981912971?text=Olá, quero comprar a carta Maldrik!" class="btn-comprar" target="_blank">Comprar</a>
                     </div>
                 </li>
                 <li class="carta" data-categoria="Comum" data-preco="600">
@@ -73,7 +75,7 @@
                         <h2 class="nome-personagem">Drahven</h2>
                         <span class="categoria">Categoria: Comum</span>
                         <span class="preco">R$ 600,00</span>
-                        <button class="btn-comprar">Comprar</button>
+                         <a href="http://wa.me/5517981912971?text=Olá, quero comprar a carta Drahven!" class="btn-comprar" target="_blank">Comprar</a>
                     </div>
                 </li>
                 <li class="carta" data-categoria="Comum" data-preco="400">
@@ -82,13 +84,13 @@
                         <h2 class="nome-personagem">Nyxsombra</h2>
                         <span class="categoria">Categoria: Comum</span>
                         <span class="preco">R$ 400,00</span>
-                        <button class="btn-comprar">Comprar</button>
+                         <a href="http://wa.me/5517981912971?text=Olá, quero comprar a carta Nyxsombra!" class="btn-comprar" target="_blank">Comprar</a>
                     </div>
                 </li>
         </div>
        </li>
       </ul>
     </main>
-    <footer class="rodape"></footer>
+    <footer class="rodape">@2025 -Todos os direitos reservados</footer>
 </body>
 </html
